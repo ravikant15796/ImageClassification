@@ -25,6 +25,7 @@ Project Structure :-
 Model Performance :-
 
 Confusion Matrix->
+
  [212   0]
  [0  159 ]
 
@@ -32,11 +33,9 @@ Confusion Matrix->
 Classification_report ->
 
               precision    recall  f1-score   support
-
        apple       1.00      1.00      1.00       212
    non-apple       1.00      1.00      1.00       159
-
-    accuracy                           1.00       371
+   accuracy                            1.00       371
    macro avg       1.00      1.00      1.00       371
 weighted avg       1.00      1.00      1.00       371
 
