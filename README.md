@@ -30,18 +30,26 @@ run python3 training.py
 Model Performance :-
 
 Confusion Matrix->
- |[212   0]|
- |[0  159 ]|
+ [[212   0]
+ [0  159 ]]
 
 
 Classification_report ->
 
-  |            |precision  |   recall |  f1-score  |  support |
+  |    Name    |precision  |   recall |  f1-score  |  support |
+  | :---       |     :---: |     ---: | ---:       |    ---:  |
   | apple      |    1.00   |    1.00  |    1.00    |   212    |
   | non-apple  |    1.00   |    1.00  |  1.00      |   159    |
   | accuracy   |           |          |  1.00      |   371    |
   | macro avg  |   1.00    |    1.00  |  1.00      |   371    |
   |weighted avg|   1.00    |    1.00  |  1.00      |   371    |
+
+
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 
 
